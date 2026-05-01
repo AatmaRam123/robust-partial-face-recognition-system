@@ -7,7 +7,7 @@ Head-only training produces lower results than this method which proves to be be
 ---------------------------
 The head-only method in night_train.py reaches a maximum performance level of 88-89% because it uses backbone features which were obtained from a standard ImageNet backbone. The training process for facial recognition systems allows the backbone system to develop specialized facial features which results in better accuracy and F1 score and confidence metrics.
 
-The 17% failure rate of previous backbone attempts occurred because of incorrectly functioning programming
+The 14% failure rate of previous backbone attempts occurred because of incorrectly functioning programming
 ---------------------------------------------
 The outdated system measured validation accuracy by comparing it to 0.0 which resulted in the system saving the 17% degraded model as the "best" model. The script measures the CURRENT best_model.pt accuracy to determine whether it should overwrite existing data when an actual enhancement occurs.
 
