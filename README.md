@@ -73,16 +73,6 @@ partial-face-recognition/
 │   ├── deep_train.py             # Full architecture training (staged unfreezing)
 │   ├── night_train.py            # Automated hyperparameter search for overnight runs
 │   └── predict.py                # Command-line inference utility
-├── assets/
-│   ├── deploy.prototxt           # OpenCV DNN face detector configuration
-│   └── res10_300x300_ssd_iter_140000.caffemodel
-├── results/
-│   ├── confusion_matrix.png
-│   ├── learning_curve_accuracy.png
-│   ├── classification_report.txt
-│   └── training_history.json
-├── dataset_sample/               # Demonstration dataset (3 identities x 10 variants)
-├── model_utils.py                # Shared utilities and helper functions
 ├── requirements.txt
 └── README.md
 ```
